@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuckyGold Casino</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #222;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        .promo {
+            background-color: #333;
+            padding: 50px 0;
+            margin: 20px 0;
+        }
+
+        .promo h2 {
+            font-size: 24px;
+        }
+
+        button {
+            background-color: #ffcc00;
+            color: #222;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ffaa00;
+        }
+
+        .games {
+            margin: 50px 0;
+        }
+
+        .game-list {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .game-item {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .game-item img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .game-item h4 {
+            color: #ffcc00;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #222;
+            padding: 20px;
+        }
+
+        .tiny-text {
+            font-size: 4px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>LuckyGold Casino</h1>
+        </div>
+        <nav>
+            <ul>
+    <section class="promo">
+        <h2>100% Welcome Bonus + 50 Free Spins!</h2>
+        <button onclick="fakeSignUp()">Join Now!</button>
+    </section>
+
+    <section class="games">
+        <h3>Popular Games</h3>
+        <div class="game-list">
+            <div class="game-item" onclick="fakeGame()">
+                <img src="slots.jpg" alt="Slot Game">
+                <h4>Dragon's Gold</h4>
+            </div>
+            <div class="game-item" onclick="fakeGame()">
+                <img src="blackjack.jpg" alt="Blackjack">
+                <h4>Blackjack</h4>
+            </div>
+            <div class="game-item" onclick="fakeGame()">
+                <img src="roulette.jpg" alt="Roulette">
+                <h4>Roulette Royale</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 LuckyGold Casino</p>
+        <p class="tiny-text">This site is not real, this is only to troll scammers</p>
+    </footer>
+
+    <script>
+        function fakeSignUp() {
+            alert("Oops! Sign-ups are disabled right now. Try again later.");
+        }
+
+        function fakeGame() {
+            alert("Error: This game is not available in your country. Please Bet By Calling our number");
+        }
+
+        function fakeLogin() {
+            alert("Login failed. Please try again.");
+        }
+    </script>
+</body>
+</html>
